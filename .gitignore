@@ -30,6 +30,8 @@ report.html
 .vscode/
 .tox/
 reports/
+.Python
+package-lock.json
 # excludes
 !.coveragerc
 !.editorconfig
