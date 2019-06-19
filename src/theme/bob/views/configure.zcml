@@ -12,6 +12,7 @@
      class=".mega_view.MegaView"
      template="mega_view.pt"
      permission="zope2.View"
+     title="Mega View"
      />
 
   <browser:page
