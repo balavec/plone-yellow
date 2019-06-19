@@ -1,5 +1,12 @@
 <?xml version="1.0"?>
 <registry>
 <!-- -*- extra stuff goes here -*- -->
-
+  <records
+      interface="Products.CMFPlone.interfaces.controlpanel.IImagingSchema"
+      prefix="plone">
+    <value key="allowed_sizes" purge="false">
+      <element>custom_4to3 400:300</element>
+      <element>custom_3to4 300:400</element>
+    </value>
+  </records>
 </registry>
