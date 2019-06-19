@@ -13,5 +13,5 @@ class StuffView(BrowserView):
 
     def __call__(self):
         # Implement your own actions:
-        self.msg = _(u'A small message')
+        self.msg = _(u'A stuff message')
         return self.index()

@@ -12,6 +12,7 @@
      class=".stuff_view.StuffView"
      template="stuff_view.pt"
      permission="zope2.View"
+     title="Stuff View"
      />
 
   <browser:page
