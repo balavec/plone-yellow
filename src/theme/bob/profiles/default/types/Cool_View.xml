@@ -68,6 +68,7 @@
   <property name="view_methods">
     <element value="view"/>
     <element value="stuff_view"/>
+    <element value="mega_view"/>
   </property>
 
   <!-- Method aliases -->

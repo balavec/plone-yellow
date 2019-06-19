@@ -13,5 +13,5 @@ class MegaView(BrowserView):
 
     def __call__(self):
         # Implement your own actions:
-        self.msg = _(u'A small message')
+        self.msg = _(u'A mega message')
         return self.index()

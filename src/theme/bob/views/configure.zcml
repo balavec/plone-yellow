@@ -12,6 +12,7 @@
      class=".mega_view.MegaView"
      template="mega_view.pt"
      permission="zope2.View"
+     menu="plone_displayviews"
      title="Mega View"
      />
 
@@ -21,6 +22,7 @@
      class=".stuff_view.StuffView"
      template="stuff_view.pt"
      permission="zope2.View"
+     menu="plone_displayviews"
      title="Stuff View"
      />
 
