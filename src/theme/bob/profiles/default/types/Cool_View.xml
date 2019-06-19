@@ -67,7 +67,6 @@
   <property name="immediate_view">view</property>
   <property name="view_methods">
     <element value="view"/>
-    <element value="my-view"/>
     <element value="stuff_view"/>
   </property>
 

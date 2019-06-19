@@ -15,13 +15,4 @@
      title="Stuff View"
      />
 
-  <browser:page
-     name="my-view"
-     for="Products.CMFCore.interfaces.IFolderish"
-     class=".my_view.MyView"
-     template="my-view.pt"
-     permission="zope2.View"
-     />
-
-
 </configure>
