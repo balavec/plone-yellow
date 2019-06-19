@@ -7,6 +7,14 @@
   -*- extra stuff goes here -*-
 
   <browser:page
+     name="mega_view"
+     for="Products.CMFCore.interfaces.IFolderish"
+     class=".mega_view.MegaView"
+     template="mega_view.pt"
+     permission="zope2.View"
+     />
+
+  <browser:page
      name="stuff_view"
      for="Products.CMFCore.interfaces.IFolderish"
      class=".stuff_view.StuffView"
